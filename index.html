@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li><a class="hover" href="index.html">Home</a></li>
+            <li>
+                <div class="dropdown">
+                    <a class="hover">Categories</a>
+                    <div class="options">
+                        <a class="L1" href="./romantic/Romantic.html">Romantic</a>
+                        <a class="L2" href="./hip-hop/Hip-Hop.html">Hip-Hop</a>
+                        <a class="L3" href="./classic/Classic.html">Classic</a>
+                    </div>
+                </div>
+            </li>
+            <li><a class="hover" href="about.html">About</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Aayat</span>
+                    <span class="songlistPlay"><span class="timestamp">04:22 <i id="0"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Aayat</span>
+                    <span class="songlistPlay"><span class="timestamp">03:14 <i id="1"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Aayat</span>
+                    <span class="songlistPlay"><span class="timestamp">04:20 <i id="2"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Aayat</span>
+                    <span class="songlistPlay"><span class="timestamp">05:53 <i id="3"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Aayat</span>
+                    <span class="songlistPlay"><span class="timestamp">07:51 <i id="4"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Aayat</span>
+                    <span class="songlistPlay"><span class="timestamp">05:40 <i id="5"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Aayat</span>
+                    <span class="songlistPlay"><span class="timestamp">03:18 <i id="6"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Aayat</span>
+                    <span class="songlistPlay"><span class="timestamp">04:20 <i id="7"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Aayat</span>
+                    <span class="songlistPlay"><span class="timestamp">05:54 <i id="8"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Aayat</span>
+                    <span class="songlistPlay"><span class="timestamp">04:22 <i id="9"
+                                class="songItemPlay fa-solid fa-circle-play"></i></span> </span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons  -->
+            <i class="fa-3x fa-solid fa-backward-step" id="previous"></i>
+            <i class="fa-3x fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-3x fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"><span id="masterSongName">Aayat</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/ec4f8d4da4.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
